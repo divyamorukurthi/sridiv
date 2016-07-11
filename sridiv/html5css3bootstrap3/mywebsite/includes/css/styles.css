@@ -40,12 +40,19 @@ padding-bottom: 5px;
 color: blue;
 
 }
-.navbar navbar-fixed-top{
-   background: lightblue;
+
+
+.navbar navbar-default navbar-fixed-top{
+   background: red;
 }
 .navbar{
    background:lightblue;
+
 }
+.form-control{
+   display: inline;
+}
+
 .form-group{
    padding:20px 20px;
 }
@@ -64,6 +71,12 @@ color: blue;
 ul .unstyled{
    list-style: none;
    padding: 0px;
+}
+.panel{
+   border: solid #eee;
+}
+.panel-heading{
+   background: #eee;
 }
 
 
