@@ -1,0 +1,274 @@
+/*
+
+My Custom CSS
+=============
+
+Author:  Brad Hussey
+Updated: August 2013
+Notes:	 Hand coded for Udemy.com
+
+*/
+
+
+/* --------------------------------------
+   Layout
+   -------------------------------------- */
+#features {
+   text-align: center;
+}
+#features img {
+   margin: 0 0 20px;
+   width: 100%;
+}
+#inputMessage{
+   margin-bottom: 15px;
+}
+footer {
+   color:blue;
+  background: lightblue;
+   font-size: 15px;
+padding:20px;
+}
+
+.thumbnail img{
+   width: 100%;
+   height: 300px;
+}
+
+a.navbar-brand{
+padding-bottom: 5px;
+color: blue;
+
+}
+.navbar navbar-fixed-top{
+   background: lightblue;
+}
+.navbar{
+   background:lightblue;
+}
+.form-group{
+   padding:20px 20px;
+}
+/* --------------------------------------
+   Typography
+   -------------------------------------- */
+body{
+   webkit-font-smoothing:antialiased;
+   text-rendering: optimizeLegibility;
+}
+.well .page-header {
+color: blue;
+   margin-top: 0px;
+
+}
+ul .unstyled{
+   list-style: none;
+   padding: 0px;
+}
+
+
+/* --------------------------------------
+   Navbar
+   -------------------------------------- */
+
+
+
+   #searchInput{
+      width:200px;
+   }
+   .navbar-brand{
+      padding:13px 15px;
+
+   }
+   
+   form{
+      margin-right: 0px;
+   }
+   
+   input#searchInput.form-control{
+      margin-left: 10px;
+   }
+   .col-sm-2{
+      margin-righ
+      t: 0px;
+
+   }
+   
+   ul{
+      list-style: none;
+      padding:0px;
+   }
+   
+   
+   
+.col sm-3 {
+    
+    display: inline; 
+     
+      margin-top: 0px;
+   }
+
+.row  h2{
+   color: blue;
+}
+
+.row  h3{
+   color: blue;
+
+}
+.tab-content h4{
+   color: blue;
+
+}
+
+
+
+
+/* --------------------------------------
+   Carousel
+   -------------------------------------- */
+   #myCarousel {
+   margin-top: 60px;
+}
+
+.carousel-caption {
+   font-size: 24px;
+}
+
+.carousel-caption h3 {
+   font-size: 32px;
+}
+
+
+
+#myCarousel .item{
+   height:400px;
+
+}
+#slide1{
+   background: url('../../images/md1.jpg') top center no-repeat;
+}
+#slide2{
+   background: url('../../images/md2.jpg') top center no-repeat;
+}
+#slide3{
+   background: url('../../images/md3.jpg') top center no-repeat;
+}
+
+
+/* --------------------------------------
+   Global Styles
+   -------------------------------------- */
+
+.well {
+   margin: 20px 0px;
+}
+.tabbable img.thumbnail{
+   margin:0px 10px 0px 0px;
+   
+}
+.thumbnails{
+   margin-top: 20px 0px;
+
+}
+.thumbnail{
+   position: relative;
+}
+
+#myCarousel.carousel.slide{
+   margin-top: 40px;
+}
+.thumbnail h3 {
+   font-size: 16px;
+   margin: 0 0 10px;
+   line-height: 20px;
+
+}
+
+.thumbnail .price {
+   font-size: 22px;
+   position: absolute;
+   top: -10px;
+   right: -5px;
+   padding: 10px;
+
+}
+
+.thumbnail .price sup {
+   font-weight: normal;
+   font-size: 12px;
+   color: blue;
+
+}
+
+.thumbnail span.glyphicon {
+   margin-right: 5px;
+  
+}
+#tab2 {
+  
+   margin:0 20 0 0px;
+}
+.container{
+   background:lightblue;
+   font-family: 'Playball', 'cursive';
+   font-size: 20px;
+}
+/* --------------------------------------
+   Media Queries
+   -------------------------------------- */
+
+/* Portrait & landscape phone */
+
+/* Landscape phone to portrait tablet */
+@media (max-width: 768px) {
+	#myCarousel .item {
+   height:310px;
+
+}
+#slide1{
+   background: url('../../images/sm1.jpg') top center no-repeat;
+}
+#slide2{
+   background: url('../../images/sm2.jpg') top center no-repeat;
+}
+#slide3{
+   background: url('../../images/sm3.jpg') top center no-repeat;
+}}
+
+
+
+
+/* Large desktop */
+@media (min-width: 1200px) {
+#myCarousel .item{
+   height: 500px;
+
+}
+#slide1{
+   background: url('../../images/lg1.jpg') top center no-repeat;
+}
+#slide2{
+   background: url('../../images/lg2.jpg') top center no-repeat;
+}
+#slide3{
+   background: url('../../images/lg3.jpg') top center no-repeat;
+}  
+}	
+
+@media (max-width: 480px) {
+
+   #myCarousel .item {
+   height:200px;
+
+}
+#slide1{
+   background: url('../../images/xs1.jpg') top center no-repeat;
+}
+#slide2{
+   background: url('../../images/xs2.jpg') top center no-repeat;
+}
+#slide3{
+   background: url('../../images/xs3.jpg') top center no-repeat;
+}  
+}
